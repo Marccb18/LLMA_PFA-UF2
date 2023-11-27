@@ -1,8 +1,7 @@
-html, body {
-    height: 100%;
+html,body{
     width: 100%;
-    margin: 0;
-    padding: 0;
+    margin-left: 10px;
+    padding: 0px;
 }
 
 header {
@@ -14,7 +13,7 @@ header {
 
 h1 {
     padding: 5px;
-    padding-right: 15px;
+    padding-right: 35px;
     text-align: center;
 }
 
@@ -29,7 +28,6 @@ table {
     border: solid 3px red;
     border-collapse: collapse;
     box-shadow: 2px 2px 2px rgb(0, 0, 0);
-    margin-bottom: 20px;
 }
 
 thead {
@@ -43,7 +41,7 @@ thead {
     width: 15%;
 }
 
-th:hover {
+thead tr:hover, th:hover{
     background-color: pink;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-shadow: 0 0;
