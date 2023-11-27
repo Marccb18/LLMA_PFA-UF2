@@ -24,10 +24,12 @@ thead {
 .numero {
     background-color: hotpink;
     width: 15%;
+    border: 3px solid red;
 }
 
 .titulo {
     width: 60%;
+    border:none;
 }
 
 td {
