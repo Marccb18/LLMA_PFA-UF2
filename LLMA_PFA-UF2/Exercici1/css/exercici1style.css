@@ -8,11 +8,18 @@ html, body {
 img {
     width: 250px;
     margin-bottom: 10px;
+    -webkit-box-shadow: 2px 2px 0px 0px rgb(0, 0, 0);
+    -moz-box-shadow: 2px 2px 0px 0px rgb(0, 0, 0);
+    box-shadow: 2px 2px 0px 0px rgb(0, 0, 0);
 }
 
 table {
     width: 250px;
     border: solid 3px red;
+    border-collapse: collapse;
+    -webkit-box-shadow: 2px 2px 0px 0px rgb(0, 0, 0);
+    -moz-box-shadow: 2px 2px 0px 0px rgb(0, 0, 0);
+    box-shadow: 2px 2px 0px 0px rgb(0, 0, 0);
 }
 
 thead {
@@ -21,19 +28,25 @@ thead {
     border: 3px solid red;
 }
 
-.numero {
+.numero, .numero:hover {
     background-color: hotpink;
     width: 15%;
-    border: 3px solid red;
 }
 
 .titulo {
     width: 60%;
-    border:none;
+    border:3px solid red;
 }
 
 td {
     padding-left: 5px ;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     border: 3px solid red;
+    text-shadow: 0 black;
+}
+
+tr:hover{
+    background-color: yellow;
+    font-weight: bold;
+    color: red;
 }
