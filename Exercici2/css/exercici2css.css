@@ -43,7 +43,7 @@ header {
 }
 
 main {
-    background: linear-gradient(rgb(227, 148, 161), 1.5%,black);
+    background: linear-gradient(rgb(227, 148, 161), 2%,black);
 }
 
 #reproduccion {
@@ -57,7 +57,15 @@ main {
     margin-left: 20px;
     height: 50px; 
     width: 50px;
+    margin-bottom: 20px;
 }
+
+ #botonreproducir:hover {
+    height: 53px;
+    width: 53px;
+    margin-right: 22px;
+    margin-bottom: 17px;
+ }
 
 #reproduccion button {
     color: white;
@@ -69,12 +77,13 @@ main {
     border-radius: 20px;
     font-size: 15px;
     box-shadow: 0 0 0;
+    text-shadow: 0 0 0;
+    margin-bottom: 20px;
 }
 
 #reproduccion button:hover {
     cursor: pointer;
-    font-weight: bold;
-    border: solid white 4px;
-    
-
+    border: solid white 2.5px;
+    box-shadow: 2px 2px 2px 1px rgba(255, 255, 255, 0.5);
+    text-shadow: 2px 2px 2px 1px rgba(255, 255, 255, 0.5);
 }
