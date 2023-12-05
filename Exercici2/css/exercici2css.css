@@ -99,10 +99,40 @@ main {
 
 .cancion {
     display: flex;
-    margin-left: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top:15px;
+    padding-bottom: 15px;
+    border-radius: 10px;
 }
 
+.cancion:hover {
+    background-color: rgba(255, 255, 255, 0.374);
+}
 .portadacancion {
     height: 35px;
     width: 35px;
+    border-radius: 3px;
+}
+
+.titulo{
+    color: white;
+    text-decoration: none;
+    padding-top: 4px;
+    padding-left: 20px;
+}
+
+.numero{
+    padding-right: 15px;
+    padding-top: 4px;
+    padding-left: 10px;
+}
+
+.visitas{
+    padding-top: 4px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.duracion{
+    padding-top: 4px;
 }
