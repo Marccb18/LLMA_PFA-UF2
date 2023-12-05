@@ -98,7 +98,7 @@ main {
 }
 
 
-#populares h2 {
+.subtitulo {
     font-size: xx-large;
     padding-left: 20px;
     padding-bottom: 8px;
@@ -160,7 +160,7 @@ main {
     color: rgba(255, 255, 255, 0.639);
     text-decoration: none;
     margin-left: 60px;
-    margin-top: 20px;
+    margin-top: 30px;
     margin-bottom: 10px;
     font-size: large;
 }
