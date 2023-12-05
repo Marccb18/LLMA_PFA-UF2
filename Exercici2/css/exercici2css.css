@@ -156,6 +156,15 @@ main {
     margin-left: 200px;
 }
 
+#seemore {
+    color: rgba(255, 255, 255, 0.639);
+    text-decoration: none;
+}
+
+#seemore:hover {
+    color:white;
+}
+
 .titulo:hover{
     text-decoration: underline;
 }
