@@ -99,6 +99,7 @@ main {
 
 
 #populares h2 {
+    font-size: xx-large;
     padding-left: 20px;
     padding-bottom: 8px;
 }
@@ -106,44 +107,55 @@ main {
     display: flex;
     margin-left: 50px;
     margin-right: 50px;
-    padding-top:15px;
-    padding-bottom: 15px;
+    width: 1050px;
+    padding-top:14px;
+    padding-bottom: 14px;
     border-radius: 10px;
     justify-content: left;
+    font-size: large;
 }
 
 .cancion:hover {
     background-color: rgba(255, 255, 255, 0.374);
 }
+
+.numero{
+    padding-top: 4px;
+    color: rgba(255, 255, 255, 0.639);
+    width: 10px;
+    margin-left: 15px;
+}
+
 .portadacancion {
     height: 35px;
     width: 35px;
     border-radius: 3px;
+    margin-left: 30px;
 }
 
 .titulo{
     color: white;
     text-decoration: none;
     padding-top: 4px;
-    padding-left: 20px;
-}
-
-.numero{
-    padding-right: 15px;
-    padding-top: 4px;
-    padding-left: 10px;
-    color: rgba(255, 255, 255, 0.639);
+    width: 180px;
+    margin-left: 20px;
 }
 
 .visitas{
-    padding-top: 4px;
-    padding-right: 10px;
-    padding-left: 150px;
+    padding-top: 6.5px;
     color: rgba(255, 255, 255, 0.639);
-    
+    width: 90px;
+    margin-left: 350px;
+    align-items: left;
 }
+
 .duracion{
-    padding-top: 4px;
+    padding-top: 6.5px;
     color: rgba(255, 255, 255, 0.639);
-    padding-left: 240px;
+    width: 35px;
+    margin-left: 200px;
+}
+
+.titulo:hover{
+    text-decoration: underline;
 }
