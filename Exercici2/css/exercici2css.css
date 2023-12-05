@@ -156,12 +156,16 @@ main {
     margin-left: 200px;
 }
 
-#seemore {
+#vermas{
     color: rgba(255, 255, 255, 0.639);
     text-decoration: none;
+    margin-left: 60px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: large;
 }
 
-#seemore:hover {
+#vermas:hover {
     color:white;
 }
 
