@@ -97,6 +97,11 @@ main {
     color: white;
 }
 
+
+#populares h2 {
+    padding-left: 20px;
+    padding-bottom: 8px;
+}
 .cancion {
     display: flex;
     margin-left: 50px;
@@ -104,6 +109,7 @@ main {
     padding-top:15px;
     padding-bottom: 15px;
     border-radius: 10px;
+    justify-content: left;
 }
 
 .cancion:hover {
@@ -126,13 +132,18 @@ main {
     padding-right: 15px;
     padding-top: 4px;
     padding-left: 10px;
+    color: rgba(255, 255, 255, 0.639);
 }
 
 .visitas{
     padding-top: 4px;
     padding-right: 10px;
-    padding-left: 10px;
+    padding-left: 150px;
+    color: rgba(255, 255, 255, 0.639);
+    
 }
 .duracion{
     padding-top: 4px;
+    color: rgba(255, 255, 255, 0.639);
+    padding-left: 240px;
 }
