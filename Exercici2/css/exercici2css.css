@@ -13,12 +13,33 @@ html,body{
     color: white;
 }
 
+header {
+    background-color: black;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+
+header a:hover{
+    background-color: rgba(255, 255, 255, 0.374);
+}
+
+
+
 #verificado {
     width: 15px;
     height: 15px;
 }
 
-header span {
+#portada span {
     flex-grow: 1;
     margin-top: 10px;
 }
@@ -28,7 +49,7 @@ h1 {
     margin-bottom: 10px;
 }
 
-header {
+#portada {
     background-image: url(../img/varry-brava-3-3200x1680-c.jpg);
     color: white;
     padding-left: 10px;
@@ -281,6 +302,7 @@ main {
 #listasenlaces{
     display: flex;
     margin-top: 200px;
+    font-size: large;
 }
 
 #listasenlaces div {
