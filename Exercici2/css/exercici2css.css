@@ -307,6 +307,10 @@ main {
 
 #redessociales a {
     background-color: rgba(255, 255, 255, 0.189);
+    border-radius: 22px;
+    margin-right: 10px;
+    height: 32px;
+    padding: 8px;
 }
 
 #redessociales a:hover {
