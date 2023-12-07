@@ -277,3 +277,38 @@ main {
     margin-left: 30px;
     margin-top: 350px;
 }
+
+#listasenlaces{
+    display: flex;
+    margin-top: 200px;
+}
+
+#listasenlaces div {
+    margin: 35px;
+}
+
+#listasenlaces div li {
+    list-style: none;
+}
+
+.linklista {
+    text-decoration: none;
+    color: rgba(176, 176, 176, 0.676);    
+}
+
+.linklista:hover {
+    text-decoration: underline;
+    color: rgba(255, 255, 255, 0.756);
+}
+
+#redessociales {
+    display: flex;
+}
+
+#redessociales a {
+    background-color: rgba(255, 255, 255, 0.189);
+}
+
+#redessociales a:hover {
+    background-color: rgba(255, 255, 255, 0.374);
+}
